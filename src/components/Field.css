@@ -1,0 +1,43 @@
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.field-label {
+  margin-bottom: 0.8rem;
+}
+
+.field-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.field-input {
+  font-size: 0.825rem;
+  padding: 0.6rem 0.3rem;
+  border: 2px solid rgb(240, 240, 240);
+  outline: none;
+  border-radius: 0.325rem;
+}
+
+.field-input:focus {
+  border: 2px solid rgb(51, 51, 51);
+}
+
+.field-error {
+  font-size: 0.825rem;
+  color: red;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.2rem;
+  width: 100%;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
